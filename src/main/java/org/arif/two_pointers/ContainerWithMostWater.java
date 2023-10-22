@@ -1,11 +1,6 @@
 package org.arif.two_pointers;
 
 public class ContainerWithMostWater {
-    public static void main(String[] args) {
-        int[] heights = {1,8,6,2,5,4,8,3,7};
-        int maximumArea = calculateMaximumArea(heights);
-        System.out.println(maximumArea);
-    }
     public static int calculateMaximumArea(int[] heights) {
         int leftPointer = 0;
         int rightPointer = heights.length - 1;

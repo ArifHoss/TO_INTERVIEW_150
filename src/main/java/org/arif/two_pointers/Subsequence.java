@@ -19,15 +19,6 @@ package org.arif.two_pointers;
  * Output: false
  */
 public class Subsequence {
-    public static void main(String[] args) {
-        String s = "bb";
-        String t = "abcdef";
-
-        boolean subsequence = isSubsequence(s, t);
-        boolean subsequence1 = isSubsequence1(s, t);
-        System.out.println(subsequence);
-        System.out.println(subsequence1);
-    }
 
     public static boolean isSubsequence(String s, String t) {
         if (s.length() == 0) {
