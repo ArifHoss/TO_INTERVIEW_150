@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c26af250-2c96-490a-95e5-8f892ddbfdad" name="Changes" comment="created test function to calculate the maximum area method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/two_pointers/Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/two_pointers/Plaindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/arif/two_pointers/PlaindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,6 +43,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,9 +55,9 @@
       <recent name="org.arif.two_pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubsequenceTest">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.ContainerWithMostWater" />
+  <component name="RunManager" selected="JUnit.PlaindromeTest">
+    <configuration name="Plaindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.Plaindrome" />
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWaterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.arif.two_pointers" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.ContainerWithMostWaterTest" />
+      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.PlaindromeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWaterTest.testCalculateMaxArea_basicScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaindromeTest.isPlaindrome_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.arif.two_pointers" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.ContainerWithMostWaterTest" />
-      <option name="METHOD_NAME" value="testCalculateMaxArea_basicScenario" />
+      <option name="MAIN_CLASS_NAME" value="org.arif.two_pointers.PlaindromeTest" />
+      <option name="METHOD_NAME" value="isPlaindrome_false" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaindromeTest" />
+        <item itemvalue="JUnit.PlaindromeTest.isPlaindrome_false" />
+        <item itemvalue="Application.Plaindrome" />
         <item itemvalue="JUnit.SubsequenceTest" />
         <item itemvalue="Application.Subsequence" />
-        <item itemvalue="JUnit.ContainerWithMostWaterTest" />
-        <item itemvalue="JUnit.ContainerWithMostWaterTest.testCalculateMaxArea_basicScenario" />
-        <item itemvalue="Application.ContainerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697974042474</updated>
-      <workItem from="1697974043540" duration="3177000" />
+      <workItem from="1697974043540" duration="6075000" />
     </task>
     <task id="LOCAL-00001" summary="created function to calculate the maximum area">
       <created>1697977088047</created>
