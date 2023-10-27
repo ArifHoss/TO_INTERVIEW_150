@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c26af250-2c96-490a-95e5-8f892ddbfdad" name="Changes" comment="created test function to calculate the maximum area method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/sliding_window/MinimumSizeSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/arif/sliding_window/MinimumSizeSubarraySumTest.java" afterDir="false" />
+    <list default="true" id="c26af250-2c96-490a-95e5-8f892ddbfdad" name="Changes" comment="created test function to calculate the MinimumSizeSubarraySum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/sliding_window/LSWRCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/sliding_window/MWSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/sliding_window/SubstringConcatenationWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/two_pointers/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/two_pointers/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/arif/sliding_window/LSWRCharactersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/arif/sliding_window/SubstringConcatenationWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/arif/two_pointers/TwoSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/arif/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/arif/Main.java" afterDir="false" />
     </list>
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,9 +66,9 @@
       <recent name="org.arif.two_pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumSizeSubarraySumTest">
-    <configuration name="MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MinimumSizeSubarraySum" />
+  <component name="RunManager" selected="Application.MWSubstring">
+    <configuration name="MWSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MWSubstring" />
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSizeSubarraySumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.Main" />
+      <module name="TO_INTERVIEW_150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.arif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringConcatenationWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.SubstringConcatenationWords" />
+      <module name="TO_INTERVIEW_150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.arif.sliding_window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringConcatenationWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +115,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.arif.sliding_window" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MinimumSizeSubarraySumTest" />
+      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.SubstringConcatenationWordsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSizeSubarraySumTest.minSubArrayLen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubstringConcatenationWordsTest.findSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -98,40 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.arif.sliding_window" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MinimumSizeSubarraySumTest" />
-      <option name="METHOD_NAME" value="minSubArrayLen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumSizeSubarraySumTest.minSubArrayLen_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TO_INTERVIEW_150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.arif.sliding_window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.arif.sliding_window" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MinimumSizeSubarraySumTest" />
-      <option name="METHOD_NAME" value="minSubArrayLen_02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumSizeSubarraySumTest.minSubArrayLen_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TO_INTERVIEW_150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.arif.sliding_window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.arif.sliding_window" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.MinimumSizeSubarraySumTest" />
-      <option name="METHOD_NAME" value="minSubArrayLen_03" />
+      <option name="MAIN_CLASS_NAME" value="org.arif.sliding_window.SubstringConcatenationWordsTest" />
+      <option name="METHOD_NAME" value="findSubstring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinimumSizeSubarraySumTest" />
-        <item itemvalue="Application.MinimumSizeSubarraySum" />
-        <item itemvalue="JUnit.MinimumSizeSubarraySumTest.minSubArrayLen_02" />
-        <item itemvalue="JUnit.MinimumSizeSubarraySumTest.minSubArrayLen_03" />
-        <item itemvalue="JUnit.MinimumSizeSubarraySumTest.minSubArrayLen" />
+        <item itemvalue="Application.MWSubstring" />
+        <item itemvalue="Application.SubstringConcatenationWords" />
+        <item itemvalue="JUnit.SubstringConcatenationWordsTest" />
+        <item itemvalue="JUnit.SubstringConcatenationWordsTest.findSubstring" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +156,11 @@
       <option name="presentableId" value="Default" />
       <updated>1697974042474</updated>
       <workItem from="1697974043540" duration="7384000" />
-      <workItem from="1698052401820" duration="7626000" />
+      <workItem from="1698052401820" duration="7952000" />
+      <workItem from="1698097493139" duration="7706000" />
+      <workItem from="1698152696271" duration="2235000" />
+      <workItem from="1698188287563" duration="15826000" />
+      <workItem from="1698276313831" duration="7821000" />
     </task>
     <task id="LOCAL-00001" summary="created function to calculate the maximum area">
       <created>1697977088047</created>
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697977121018</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created test function to calculate the MinimumSizeSubarraySum">
+      <created>1698065010934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698065010934</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created test function to calculate the MinimumSizeSubarraySum">
+      <created>1698065024590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698065024590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created function to calculate the maximum area" />
     <MESSAGE value="created test function to calculate the maximum area method" />
-    <option name="LAST_COMMIT_MESSAGE" value="created test function to calculate the maximum area method" />
+    <MESSAGE value="created test function to calculate the MinimumSizeSubarraySum" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test function to calculate the MinimumSizeSubarraySum" />
   </component>
 </project>
