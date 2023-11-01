@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c26af250-2c96-490a-95e5-8f892ddbfdad" name="Changes" comment="RansomNote.java RansomNoteTest.java">
+    <list default="true" id="c26af250-2c96-490a-95e5-8f892ddbfdad" name="Changes" comment="formated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/arif/hashmap/ValidAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/arif/hashmap/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/arif/hashmap/IsomorphicStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="org.arif.two_pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordPattern">
+  <component name="RunManager" selected="Application.ValidAnagram">
     <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.arif.hashmap.IsomorphicStrings" />
       <module name="TO_INTERVIEW_150" />
@@ -87,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.arif.hashmap.WordPattern" />
+    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.hashmap.ValidAnagram" />
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RansomNoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arif.hashmap.WordPattern" />
       <module name="TO_INTERVIEW_150" />
       <extension name="coverage">
         <pattern>
@@ -108,9 +109,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.arif.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="org.arif.hashmap.RansomNoteTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.IsomorphicStrings" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RansomNoteTest.testBasicCases" />
-        <item itemvalue="JUnit.RansomNoteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +157,7 @@
       <workItem from="1698658817887" duration="6792000" />
       <workItem from="1698707852533" duration="2224000" />
       <workItem from="1698751574349" duration="6313000" />
-      <workItem from="1698837200726" duration="750000" />
+      <workItem from="1698837200726" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="created function to calculate the maximum area">
       <created>1697977088047</created>
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698658916211</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="formated">
+      <created>1698838013400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698838013400</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +259,18 @@
     <MESSAGE value="created test function to calculate the Two Sum || - Input array is sorted" />
     <MESSAGE value="created test function to calculate the Three sum" />
     <MESSAGE value="RansomNote.java RansomNoteTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="RansomNote.java RansomNoteTest.java" />
+    <MESSAGE value="formated" />
+    <option name="LAST_COMMIT_MESSAGE" value="formated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/arif/hashmap/ValidAnagram.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
