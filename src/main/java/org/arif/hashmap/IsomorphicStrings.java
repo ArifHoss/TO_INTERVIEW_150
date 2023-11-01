@@ -32,6 +32,8 @@ public class IsomorphicStrings {
         }
         return sShadow.equals(tShadow);
     }
+
+
     public static boolean isIsomorphic1(String s, String t) {
         if (s.length() != t.length()) return false;
         Map<Character, Character> map = new HashMap<>();
