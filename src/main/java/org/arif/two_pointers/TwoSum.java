@@ -1,6 +1,5 @@
 package org.arif.two_pointers;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
