@@ -26,16 +26,16 @@ public class ValidSudoku1 {
         }
 
         // Check each column
-        for (int colum = 0; colum < 9; colum++) {
-            if (!isColumnValid(board, colum)) {
+        for (int column = 0; column < 9; column++) {
+            if (!isColumnValid(board, column)) {
                 return false;
             }
         }
 
         // Check each 3x3 sub-grid
         for (int row = 0; row < 9; row += 3) {
-            for (int colum = 0; colum < 9; colum += 3) {
-                if (!isSubgridValid(board, row, colum)) {
+            for (int column = 0; column < 9; column += 3) {
+                if (!isSubgridValid(board, row, column)) {
                     return false;
                 }
             }
@@ -47,25 +47,25 @@ public class ValidSudoku1 {
 
     private boolean isRowValid(char[][] board, int row) {
         boolean[] seen = new boolean[9];
-        for (int col = 0; col < 9; col++) {
-            if (board[row][col] != '.') {
-                if (seen[board[row][col] - '1']) {
+        for (int column = 0; column < 9; column++) {
+            if (board[row][column] != '.') {
+                if (seen[board[row][column] - '1']) {
                     return false;
                 }
-                seen[board[row][col] - '1'] = true;
+                seen[board[row][column] - '1'] = true;
             }
         }
         return true;
     }
 
-    private boolean isColumnValid(char[][] board, int col) {
+    private boolean isColumnValid(char[][] board, int column) {
         boolean[] seen = new boolean[9];
         for (int row = 0; row < 9; row++) {
-            if (board[row][col] != '.') {
-                if (seen[board[row][col] - '1']) {
+            if (board[row][column] != '.') {
+                if (seen[board[row][column] - '1']) {
                     return false;
                 }
-                seen[board[row][col] - '1'] = true;
+                seen[board[row][column] - '1'] = true;
             }
         }
         return true;
