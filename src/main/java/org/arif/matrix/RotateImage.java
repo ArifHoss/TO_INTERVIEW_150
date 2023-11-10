@@ -19,16 +19,17 @@ public class RotateImage {
                 {7, 8, 9},
         };
         //System.out.println(Arrays.deepToString(matrix));
-        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
+//        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
         rotate(matrix);
         System.out.println("AFTER 90 degree ROTATION");
         //System.out.println(Arrays.deepToString(matrix));
-        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
+//        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
 
 
     }
 
     public static void rotate(int[][] matrix) {
+        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
         int n = matrix.length;
         int temp;
 
@@ -41,6 +42,9 @@ public class RotateImage {
             }
         }
 
+        System.out.println("=======================");
+        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
+        System.out.println("=======================");
         // Reverse each row
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n / 2; j++) {
@@ -49,6 +53,7 @@ public class RotateImage {
                 matrix[i][n - 1 - j] = temp;
             }
         }
+        Arrays.stream(matrix).forEach(row -> System.out.println(Arrays.toString(row)));
     }
 
 }
