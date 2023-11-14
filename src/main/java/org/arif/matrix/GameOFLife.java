@@ -46,7 +46,7 @@ public class GameOFLife {
     }
 
     public static void main(String[] args) {
-        int[][] board =  {{0,1,0}, {0,0,1}, {1,1,1}, {0,0,0}};
+        int[][] board = {{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}};
         Arrays.stream(board).forEach(row -> System.out.println(Arrays.toString(row)));
         gameOfLife(board);
         System.out.println("===============");
